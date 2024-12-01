@@ -29,7 +29,17 @@ console.log(preparedGifts3); // []
 // No hay regalos, la lista queda vacía
 ```
 
-## Solución
+<details>
+  <summary><b>Pistas</b></summary>
+
+- <details>
+      <summary>Pista 1</summary>
+      Para eliminar los regalos duplicados, puedes utilizar un `Set`
+    </details>
+  </details>
+
+<details>
+<summary><b>Ver Solución</b></summary>
 
 El problema nos pide eliminar los regalos duplicados y ordenar la lista de regalos en orden ascendente. Para ello, podemos utilizar un conjunto (`Set`) para almacenar los regalos únicos y luego convertirlo a un arreglo y ordenarlo.
 
@@ -41,8 +51,10 @@ Complejidad: `O(n log n)` debido a que se realiza una operación de ordenamiento
 function prepareGifts(gifts: number[]): number[] {
   const uniqueGifts: Set<number> = new Set(gifts);
   const sortedGifts: number[] = [...uniqueGifts].sort(
-    (a: number, b: number): number => a - b
+    (a: number, b: number): number => a - b,
   );
   return sortedGifts;
 }
 ```
+
+</details>
