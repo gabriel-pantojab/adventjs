@@ -2,6 +2,6 @@
 
 ## Problemas
 
-| #   | Problema                    | Dificultad | Solución             |
-| --- | --------------------------- | ---------- | -------------------- |
-| 01  | 🎁 ¡Primer regalo repetido! | 🟢 Fácil   | [📝](./01/README.md) |
+| #   | Problema                    | Dificultad |
+| --- | --------------------------- | ---------- |
+| 01  | [🎁 ¡Primer regalo repetido!](./01/README.md) | 🟢 Fácil   |
