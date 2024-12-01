@@ -1,7 +1,5 @@
 !["HERO"](./assets/images/adventjs.webp)
 
-## Problemas
+## Versiones
 
-| #   | Problema                                     | Dificultad | Solución                      |
-| --- | -------------------------------------------- | ---------- | ----------------------------- |
-| 01  | [🎁 ¡Primer regalo repetido!](./src/2024/01) | 🟢 Fácil   | [📝](./src/2024/01/README.md) |
+- [2024](./src/2024/README.md)
